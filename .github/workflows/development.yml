@@ -6,8 +6,12 @@ name: Test CI
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - projects/ngx-uploader/**
   pull_request:
     branches: [ "main" ]
+    paths:
+      - projects/ngx-uploader/**
 
 jobs:
   build:
