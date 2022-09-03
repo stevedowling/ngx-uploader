@@ -1,12 +1,13 @@
 {
   "name": "@angular-ex/uploader",
-  "version": "14.0.1",
+  "version": "14.0.2",
   "homepage": "https://ngx-uploader.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/angular-ex/uploader.git"
   },
   "authors": [
+    "Thanh Pham <pnt239@gmail.com>",
     "Jan Kuri <jkuri88@gmail.com>"
   ],
   "license": "MIT",
