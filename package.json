@@ -6,6 +6,7 @@
     "url": "git+https://github.com/bleenco/ngx-uploader.git"
   },
   "authors": [
+    "Thanh Pham <pnt239@gmail.com>",
     "Jan Kuri <jkuri88@gmail.com>"
   ],
   "license": "MIT",
