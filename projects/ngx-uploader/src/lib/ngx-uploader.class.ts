@@ -16,6 +16,8 @@ export function humanizeBytes(bytes: number): string {
 }
 
 export class NgUploaderService {
+  private readonly HttpRequestDone = XMLHttpRequest.DONE || 4;
+
   queue: UploadFile[];
   serviceEvents: EventEmitter<UploadOutput>;
   uploadScheduler: Subject<{ file: UploadFile; event: UploadInput }>;
@@ -215,7 +217,7 @@ export class NgUploaderService {
       });
 
       xhr.onreadystatechange = () => {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
+        if (xhr.readyState === this.HttpRequestDone) {
           const speedAverage = Math.round((file.size / (new Date().getTime() - progressStartTime)) * 1000);
           file.progress = {
             status: UploadStatus.Done,
