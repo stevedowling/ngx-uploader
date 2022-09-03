@@ -15,7 +15,7 @@ To save your and our time, we will systematically close all issues that are requ
 1. Add `ngx-uploader` module as dependency to your project.
 
 ```console
-npm install ngx-uploader --save
+npm i @angular-ex/uploader --save
 ```
 
 2. Include `NgxUploaderModule` into your main AppModule or in module where you will use it.
