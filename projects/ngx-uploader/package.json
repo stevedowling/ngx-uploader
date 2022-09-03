@@ -10,6 +10,26 @@
     "Jan Kuri <jkuri88@gmail.com>"
   ],
   "license": "MIT",
+  "keywords": [
+    "angular",
+    "angular-upload",
+    "angular-uploader",
+    "angular-upload-component",
+    "angular-file-upload-component",
+    "file-upload",
+    "file-uploader",
+    "upload",
+    "uploader",
+    "file",
+    "file-picker",
+    "dropzone",
+    "multipart",
+    "xhr",
+    "angularjs",
+    "ng",
+    "ngx",
+    "input"
+  ],
   "bugs": {
     "url": "https://github.com/angular-ex/uploader/issues"
   },
