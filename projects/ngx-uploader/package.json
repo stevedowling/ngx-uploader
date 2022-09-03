@@ -1,17 +1,17 @@
 {
-  "name": "ngx-uploader",
+  "name": "@angular-ex/uploader",
   "version": "14.0.0",
   "homepage": "https://ngx-uploader.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bleenco/ngx-uploader.git"
+    "url": "git+https://github.com/angular-ex/uploader.git"
   },
   "authors": [
     "Jan Kuri <jkuri88@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bleenco/ngx-uploader/issues"
+    "url": "https://github.com/angular-ex/uploader/issues"
   },
   "peerDependencies": {
     "@angular/common": ">= 14.0.0",
