@@ -11,13 +11,13 @@ https://ngx-uploader.com
 Add `ngx-uploader` module as dependency to your project.
 
 ```console
-npm install ngx-uploader --save
+npm i @angular-ex/uploader --save
 ```
 
 or using `yarn`:
 
 ```console
-yarn add ngx-uploader
+yarn add @angular-ex/uploader
 ```
 
 - [app.module.ts](https://github.com/bleenco/ngx-uploader/blob/master/src/app/app.module.ts) is a sample how to to include `ngx-uploader` into your project.
