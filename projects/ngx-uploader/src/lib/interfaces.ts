@@ -40,6 +40,7 @@ export interface UploadFile {
   type: string;
   form: FormData;
   progress: UploadProgress;
+  uploadUrl?: string;
   response?: any;
   responseStatus?: number;
   sub?: Subscription | any;

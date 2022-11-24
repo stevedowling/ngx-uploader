@@ -171,7 +171,7 @@ export class NgUploaderService {
 
   uploadFile(file: UploadFile, event: UploadInput): Observable<UploadOutput> {
     return new Observable(observer => {
-      const url = event.url || '';
+      const url = file.uploadUrl || event.url || '';
       const method = event.method || 'POST';
       const data = event.data || {};
       const headers = event.headers || {};
